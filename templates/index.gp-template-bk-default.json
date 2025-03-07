@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "custom_section_zpjyjz",
+    "image_banner",
+    "custom_liquid_px4mTR",
+    "collage_WXXMPR",
+    "featured_collection"
+  ],
+  "sections": {
+    "collage_WXXMPR": {
+      "block_order": [
+        "image_Tkdx6p",
+        "collection_krmXY9"
+      ],
+      "blocks": {
+        "collection_krmXY9": {
+          "settings": {
+            "collection": "frontpage"
+          },
+          "type": "collection"
+        },
+        "image_Tkdx6p": {
+          "settings": {
+            "image": "shopify://shop_images/smiling-woman-poses_925x_99918148-5c33-4f1e-8ef8-ad53566bf579.jpg"
+          },
+          "type": "image"
+        }
+      },
+      "settings": {
+        "card_styles": "none",
+        "color_scheme": "scheme-3",
+        "desktop_layout": "left",
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "mobile_layout": "column",
+        "padding_bottom": 36,
+        "padding_top": 36
+      },
+      "type": "collage"
+    },
+    "custom_liquid_px4mTR": {
+      "custom_css": [
+        "h1 {text-transform: uppercase; font-weight: bold;}",
+        ".content {margin: 0 80px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "custom_liquid": "<div class=\"content\">\n<h1>Helping YOU Create <br/> a home you want <br/> to return to</h1>\n<div/>",
+        "padding_bottom": 52,
+        "padding_top": 40
+      },
+      "type": "custom-liquid"
+    },
+    "custom_section_zpjyjz": {
+      "settings": {},
+      "type": "custom-section"
+    },
+    "featured_collection": {
+      "settings": {
+        "collection": "all",
+        "color_scheme": "scheme-3",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "description": "",
+        "description_style": "body",
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "padding_bottom": 36,
+        "padding_top": 44,
+        "products_to_show": 8,
+        "quick_add": "none",
+        "show_description": false,
+        "show_rating": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "title": "Featured products",
+        "view_all_style": "solid"
+      },
+      "type": "featured-collection"
+    },
+    "image_banner": {
+      "settings": {
+        "color_scheme": "scheme-3",
+        "desktop_content_alignment": "center",
+        "desktop_content_position": "bottom-center",
+        "image": "shopify://shop_images/putting-on-your-shoes_925x_2a4af2d5-9881-4438-8371-1679aad37bb4.jpg",
+        "image_behavior": "none",
+        "image_height": "large",
+        "image_overlay_opacity": 40,
+        "mobile_content_alignment": "center",
+        "show_text_below": false,
+        "show_text_box": false,
+        "stack_images_on_mobile": false
+      },
+      "type": "image-banner"
+    }
+  }
+}
