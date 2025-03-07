@@ -9,8 +9,7 @@
 {% for block in section.blocks %}
     {% if block.type == 'paragraph' %}
         <p>{{ block.settings.text }}</p>
-    {% endif %}
-   
+    {% endif %} 
 {% endfor %}
 
 {%  schema  %} 
@@ -57,7 +56,8 @@
                     "label": "Text"
                 }
             ]
-        }
-    ]
+        }  
+    ],
+    "max_blocks": 3
 }
 {% endschema %}
