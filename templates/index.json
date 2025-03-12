@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "top_qjfmNU": {
-      "type": "top",
-      "settings": {
-        "heading": "HELPING YOU CREATE A HOME YOU WANT TO RETURN TO.",
-        "subheading": "帰りたくなる家づくり",
-        "left_image": "shopify://shop_images/two.png"
-      }
-    },
     "custom_section_zpjyjz": {
       "type": "custom-section",
       "settings": {
@@ -38,6 +30,14 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "top_qjfmNU": {
+      "type": "top",
+      "settings": {
+        "heading": "HELPING YOU CREATE A HOME YOU WANT TO RETURN TO.",
+        "subheading": "帰りたくなる家づくり",
+        "left_image": "shopify://shop_images/two.png"
       }
     },
     "custom_liquid_px4mTR": {
@@ -114,8 +114,8 @@
   "order": [
     "custom_section_zpjyjz",
     "image_banner",
-    "custom_liquid_px4mTR",
     "top_qjfmNU",
+    "custom_liquid_px4mTR",
     "collage_WXXMPR",
     "featured_collection"
   ]
