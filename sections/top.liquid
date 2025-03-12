@@ -97,58 +97,56 @@
           height="50px"
         >
       {% endif %}
-
-      {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'buttons' %}
-            {% if block.settings.button_label != blank %}
-              <a class="button" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
-            {% endif %}
-        {% endcase %}
-      {% endfor %}
     </div>
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'buttons' %}
+          {% if block.settings.button_label != blank %}
+            <a class="button" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+          {% endif %}
+      {% endcase %}
+    {% endfor %}
   </div>
 </div>
 
 {% style %}
+  .button{
+      text-decoration: none;
 
-.button{
-    text-decoration: none;
-    
-}
-    .home-showcase{
-        padding: 60px 20px;
-        max-width: 1200px;
-        margin 0 auto;
-    }
-
-    .home-showcase__text-container{
-        max-width: 500px;
-        margin-bottom: 40px;
-    }
-
-    .home-showcase__heading{
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 1.2;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-    }
-
-    .home-showcase__images {
-        display: flex;
-        gap: 20px;
-    }
-
-    .home-showcase__image-left,
-    .home-showcase__image-right {
-        flex: 1;
   }
+      .home-showcase{
+          padding: 60px 20px;
+          max-width: 1200px;
+          margin 0 auto;
+      }
 
-    .home-showcase__image-left img,
-    .home-showcase__image-right img {
-        width: 100%;
-        height: auto;
-        display: block;
-  }
+      .home-showcase__text-container{
+          max-width: 500px;
+          margin-bottom: 40px;
+      }
+
+      .home-showcase__heading{
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 1.2;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+      }
+
+      .home-showcase__images {
+          display: flex;
+          gap: 20px;
+      }
+
+      .home-showcase__image-left,
+      .home-showcase__image-right {
+          flex: 1;
+    }
+
+      .home-showcase__image-left img,
+      .home-showcase__image-right img {
+          width: 100%;
+          height: auto;
+          display: block;
+    }
 {% endstyle %}
