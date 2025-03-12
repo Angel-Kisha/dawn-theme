@@ -98,14 +98,16 @@
         >
       {% endif %}
     </div>
-    {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'buttons' %}
-          {% if block.settings.button_label != blank %}
-            <a class="button" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
-          {% endif %}
-      {% endcase %}
-    {% endfor %}
+    <div class="">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'buttons' %}
+              {% if block.settings.button_label != blank %}
+                <a class="button" href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+              {% endif %}
+          {% endcase %}
+        {% endfor %}
+    </div>
   </div>
 </div>
 
