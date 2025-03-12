@@ -12,7 +12,7 @@
     "custom_section_zpjyjz": {
       "type": "custom-section",
       "settings": {
-        "text": "hi user, welcome",
+        "text": "hi user, welcome back",
         "color": "#000000",
         "bgcolor": "#f2f2f2"
       }
@@ -20,7 +20,6 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/putting-on-your-shoes_925x_2a4af2d5-9881-4438-8371-1679aad37bb4.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -51,9 +50,7 @@
       "blocks": {
         "image_Tkdx6p": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/smiling-woman-poses_925x_99918148-5c33-4f1e-8ef8-ad53566bf579.jpg"
-          }
+          "settings": {}
         },
         "collection_krmXY9": {
           "type": "collection",
