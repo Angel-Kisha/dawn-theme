@@ -34,6 +34,19 @@
     },
     "top_qjfmNU": {
       "type": "top",
+      "blocks": {
+        "buttons_rw3Uee": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "CONCEPT",
+            "button_link": "",
+            "button_style": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_rw3Uee"
+      ],
       "settings": {
         "heading": "HELPING YOU CREATE A HOME YOU WANT TO RETURN TO.",
         "subheading": "帰りたくなる家づくり",
