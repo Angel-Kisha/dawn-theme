@@ -1212,23 +1212,9 @@
             "button_link": {
               "label": "Link"
             },
-            "button_style_secondary_1": {
+            "button_style": {
               "label": "Outline style"
             },
-            "header_2":{
-              "content": "Button 2"
-            },
-            "button_label_2": {
-              "label": "Label",
-              "info": "Leave blank to hide",
-              "default": "Button label"
-            },
-            "button_link_2": {
-              "label": "Link"
-            },
-            "button_style_secondary_2": {
-              "label": "Outline style"
-            }
           }
         }
       },
