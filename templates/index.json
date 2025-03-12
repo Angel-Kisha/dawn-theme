@@ -37,7 +37,8 @@
       "settings": {
         "heading": "HELPING YOU CREATE A HOME YOU WANT TO RETURN TO.",
         "subheading": "帰りたくなる家づくり",
-        "left_image": "shopify://shop_images/two.png"
+        "left_image": "shopify://shop_images/two.png",
+        "right_image": "shopify://shop_images/bann.jpg"
       }
     },
     "custom_liquid_px4mTR": {
