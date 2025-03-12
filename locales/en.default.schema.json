@@ -1165,42 +1165,6 @@
       "settings": {
         "image": {
           "label": "Image 1"
-        },
-        "show_text_box": {
-          "label": "Container"
-        },
-        "desktop_content_alignment": {
-          "options__1": {
-            "label": "Left"
-          },
-          "options__2": {
-            "label": "Center"
-          },
-          "options__3": {
-            "label": "Right"
-          },
-          "label": "Alignment"
-        },
-        "mobile": {
-          "content": "Mobile layout"
-        },
-        "mobile_content_alignment": {
-          "options__1": {
-            "label": "Left"
-          },
-          "options__2": {
-            "label": "Center"
-          },
-          "options__3": {
-            "label": "Right"
-          },
-          "label": "Alignment"
-        },
-        "stack_images_on_mobile": {
-          "label": "Stack images"
-        },
-        "show_text_below": {
-          "label": "Container"
         }
       },
       "blocks": {
