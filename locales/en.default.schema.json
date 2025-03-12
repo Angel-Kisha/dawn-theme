@@ -1201,7 +1201,7 @@
         "buttons": {
           "name": "Button",
           "settings": {
-          "header_1":{
+          "header":{
           "content": "Button"
           },
             "button_label": {
