@@ -1199,7 +1199,7 @@
           }
         },
         "buttons": {
-          "name": "Buttons",
+          "name": "Button",
           "settings": {
           "header_1":{
           "content": "Button"
