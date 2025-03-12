@@ -71,22 +71,23 @@
 {% endschema %}
 
 <div class="home-showcase">
-  <div class="home-showcase__text-container">
-    <h2 class="home-showcase__heading">{{ section.settings.heading }}</h2>
-    <p class="home-showcase__subheading">{{ section.settings.subheading }}</p>
+  <div class="content">
+      <div class="home-showcase__text-container">
+        <h2 class="home-showcase__heading">{{ section.settings.heading }}</h2>
+        <p class="home-showcase__subheading">{{ section.settings.subheading }}</p>
+      </div>
+        <div class="home-showcase__image-left">
+          {% if section.settings.left_image %}
+            <img
+              src="{{ section.settings.left_image |   image_url  }}"
+              alt="left image"
+              loading="lazy"
+              width="auto"
+              height="auto"
+            >
+          {% endif %}
+        </div>
   </div>
-
-    <div class="home-showcase__image-left">
-      {% if section.settings.left_image %}
-        <img
-          src="{{ section.settings.left_image |   image_url  }}"
-          alt="left image"
-          loading="lazy"
-          width="auto"
-          height="auto"
-        >
-      {% endif %}
-    </div>
     <div>
         <div class="home-showcase__image-right">
           {% if section.settings.right_image %}
