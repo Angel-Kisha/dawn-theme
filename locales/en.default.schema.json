@@ -1204,12 +1204,12 @@
           "header_1":{
           "content": "Button 1"
           },
-            "button_label_1": {
+            "button_label": {
               "label": "Label",
               "info": "Leave blank to hide",
               "default": "Button label"
             },
-            "button_link_1": {
+            "button_link": {
               "label": "Link"
             },
             "button_style_secondary_1": {
