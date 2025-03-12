@@ -73,7 +73,7 @@
   <div class="top--content">
       <div class="top--content-left">
         <div class="top__text-container">
-          <h2 class="top__heading">{{ section.settings.heading | raw }}</h2>
+          <h2 class="top__heading">{{ section.settings.heading | replace: '<br/>', '<br>' }}</h2>
           <p class="top__subheading">{{ section.settings.subheading }}</p>
         </div>
         <div class="top__image-left">
