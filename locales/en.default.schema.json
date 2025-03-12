@@ -1202,7 +1202,7 @@
           "name": "Buttons",
           "settings": {
           "header_1":{
-          "content": "Button 1"
+          "content": "Button"
           },
             "button_label": {
               "label": "Label",
