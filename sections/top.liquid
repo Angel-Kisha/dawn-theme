@@ -76,7 +76,6 @@
     <p class="home-showcase__subheading">{{ section.settings.subheading }}</p>
   </div>
 
-  <div class="home-showcase__images">
     <div class="home-showcase__image-left">
       {% if section.settings.left_image %}
         <img
@@ -114,7 +113,7 @@
   </div>
 </div>
 
-{% style %}
+{% comment %} {% style %}
   .button{
       text-decoration: none;
 
@@ -147,5 +146,5 @@
       .home-showcase__image-right {
           flex: 1;
     }
-{% endstyle %}
+{% endstyle %} {% endcomment %}
 
