@@ -43,7 +43,7 @@
     <div>
         <div>
             {% if section.settings.left_image %}
-                <img src="" alt="">
+                <img src="{{ section.settings.left_image | img_url }}" alt="">
                 
             {% endif %}
         </div>
