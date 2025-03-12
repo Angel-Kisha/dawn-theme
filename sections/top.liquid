@@ -100,7 +100,7 @@
             >
           {% endif %}
         </div>
-        <div>
+        <div class="top__button">
           {% for block in section.blocks %}
             {% case block.type %}
               {% when 'buttons' %}
@@ -119,7 +119,7 @@
         margin 0 auto;
     }
     .top--content{
-        padding: 100px 190px;
+        padding: 100px 0 190px;
         width: 100%;
         display: flex;
         gap: 30px;
