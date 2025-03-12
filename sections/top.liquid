@@ -90,7 +90,12 @@
             {% endif %}
 
           {% for block in section.blocks %}
-            
+            {% case block.type %}
+                {% when condition %}
+                    
+                {% else %}
+                    
+            {% endcase %}
           {% endfor %}
            
         </div>
