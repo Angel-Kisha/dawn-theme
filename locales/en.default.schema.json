@@ -1159,8 +1159,9 @@
           "info": "Only visible when customers are signed in with Shop. [Manage customer accounts](/admin/settings/customer_accounts)"
         }
       }
-    },"top": {
-      "name": "Image banner",
+    },
+    "top": {
+      "name": "Home Showcase",
       "settings": {
         "image": {
           "label": "Image 1"
