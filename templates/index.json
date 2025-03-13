@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "custom_section_zpjyjz": {
-      "type": "custom-section",
-      "settings": {
-        "text": "hi user, welcome back",
-        "color": "#000000",
-        "bgcolor": "#f2f2f2"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "settings": {
@@ -52,19 +44,6 @@
         "subheading": "帰りたくなる家づくり",
         "left_image": "shopify://shop_images/two.png",
         "right_image": "shopify://shop_images/bann.jpg"
-      }
-    },
-    "custom_liquid_px4mTR": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "h1 {text-transform: uppercase; font-weight: bold;}",
-        ".content {margin: 0 80px;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"content\">\n<h1>Helping YOU Create <br/> a home you want <br/> to return to</h1>\n<div/>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "collage_WXXMPR": {
@@ -123,14 +102,74 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_4FCMzW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UqkArX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_GCpnV4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_f6V6Fh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_iXwtTm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UqkArX",
+        "collapsible_row_GCpnV4",
+        "collapsible_row_f6V6Fh",
+        "collapsible_row_iXwtTm"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "custom_section_zpjyjz",
     "image_banner",
     "top_qjfmNU",
-    "custom_liquid_px4mTR",
     "collage_WXXMPR",
-    "featured_collection"
+    "featured_collection",
+    "collapsible_content_4FCMzW"
   ]
 }
